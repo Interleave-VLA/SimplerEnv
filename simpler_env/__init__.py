@@ -35,9 +35,12 @@ ENVIRONMENTS = [
     "widowx_redbull_on_plate",
     "widowx_tennis_ball_in_basket",
     "widowx_zucchini_on_towel",
+    "widowx_zucchini_on_dish",
     "widowx_tape_measure_in_basket",
     "widowx_toy_dinosaur_on_towel",
     "widowx_stapler_on_paper",
+    "widowx_yellow_cube_on_towel",
+    "widowx_green_cube_on_towel",
 ]
 
 ENVIRONMENT_MAP = {
@@ -85,9 +88,12 @@ ENVIRONMENT_MAP = {
     "widowx_redbull_on_plate": ("PutRedbullOnPlateInScene", {}),
     "widowx_tennis_ball_in_basket": ("PutTennisBallInBasketScene", {}),
     "widowx_zucchini_on_towel": ("PutZucchiniOnTableClothInScene", {}),
+    "widowx_zucchini_on_dish": ("PutZucchiniOnDishInScene", {}),
     "widowx_tape_measure_in_basket": ("PutTapeMeasureInBasketScene-v0", {}),
     "widowx_toy_dinosaur_on_towel": ("PutToyDinosaurOnTowelInScene", {}),
     "widowx_stapler_on_paper": ("PutStaplerOnPaperInScene", {}),
+    "widowx_yellow_cube_on_towel": ("PutDifferentCubeOnTableClothInScene", {}),
+    "widowx_green_cube_on_towel": ("PutDifferentCubeOnTableClothInScene-V1", {}),
 }
 
 
